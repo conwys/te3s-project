@@ -1,3 +1,7 @@
+import Profile from "../components/Profile/Profile"
+
 export default function Members() {
-    return <h1>Members</h1>
+    return (
+        <Profile/>
+    )
 }
