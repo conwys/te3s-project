@@ -1,0 +1,26 @@
+.profile-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(27, 27, 27);
+    width: 15rem;
+    height: 18rem;
+    box-shadow: -2px -3px 24px -12px rgba(0, 0, 0, 0.64);
+    -webkit-box-shadow: -2px -3px 24px -12px rgba(0, 0, 0, 0.64);
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.socials-container {
+    display: flex;
+    flex-flow: row;
+    gap: 2rem;
+}

@@ -5,13 +5,13 @@ export default function Socials({ yt, st, ds }) {
     return (
         <div className="socials-container">
             <div className="socials-yt">
-                <a href={yt}><FontAwesomeIcon icon={faYoutube}/></a>
+                <a href={yt}><FontAwesomeIcon icon={faYoutube} size="xl" inverse/></a>
             </div>
             <div className="socials-steam">
-                <a href={st}><FontAwesomeIcon icon={faSteamSymbol}/></a>
+                <a href={st}><FontAwesomeIcon icon={faSteamSymbol} size="xl" inverse/></a>
             </div>
             <div className="socials-discord">
-                <a href={ds}><FontAwesomeIcon icon={faDiscord}/></a>
+                <a href={ds}><FontAwesomeIcon icon={faDiscord} size="xl" inverse/></a>
             </div>
         </div>
     )

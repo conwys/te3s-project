@@ -1,7 +1,15 @@
 import Profile from "../components/Profile/Profile"
+import './Members.css'
 
 export default function Members() {
     return (
-        <Profile pfp="https://freepngimg.com/thumb/duck/6-2-duck-png-3-thumb.png"/>
+        <div className="member-container">
+            <Profile/>
+            <Profile/>
+            <Profile/>
+            <Profile/>
+            <Profile/>
+            <Profile/>
+        </div>
     )
 }
