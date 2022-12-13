@@ -1,8 +1,33 @@
+.member-page-content {
+    display: flex;
+    flex-flow: row;
+    gap: 2rem;
+}
+
 .member-container {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 2rem;
     gap: 2rem;
+    width: 70vw;
+}
+
+.member-info-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    padding: 3rem;
+    width: 25vw;
+    height: 92.25%;
+    margin: 2rem 2rem 2rem 2rem;
+    -webkit-box-shadow: -2px -3px 24px -12px rgba(0, 0, 0, 0.64);
+    box-shadow: -2px -3px 24px -12px rgba(0, 0, 0, 0.64);
+}
+
+.member-info-heading h1 {
+    font-weight: 500;
 }

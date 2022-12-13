@@ -6,17 +6,17 @@
     padding: 2rem;
     background-color: rgb(27, 27, 27);
     width: 18rem;
-    height: 22rem;
+    height: 23rem;
     -webkit-box-shadow: -2px -3px 24px -12px rgba(0, 0, 0, 0.64);
     box-shadow: -2px -3px 24px -12px rgba(0, 0, 0, 0.64);
 }
 
 .profile-picture {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     background-color: #fff;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .socials-container {
