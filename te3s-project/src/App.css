@@ -1,9 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
 :root {
   background-color: rgb(20, 20, 20);
 }
 
 * {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #fff;
 }
 
 body {
@@ -20,8 +25,19 @@ body {
   padding: 0 1rem;
 }
 
-.site-title {
-  font-size: 2rem;
+.site-title img {
+  width: 150px;
+  height: 70px;
+  transition: all 1s ease;
+}
+
+.site-title img:hover {
+  -webkit-filter: brightness(60%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .nav ul {
@@ -39,13 +55,31 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  padding: .25rem;
+  padding: .50rem;
+}
+
+.nav li {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .nav li.active {
   background-color: #555;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .nav li:hover {
   background-color: #777;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }

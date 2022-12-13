@@ -5,10 +5,10 @@
     justify-content: space-between;
     padding: 2rem;
     background-color: rgb(27, 27, 27);
-    width: 15rem;
-    height: 18rem;
-    box-shadow: -2px -3px 24px -12px rgba(0, 0, 0, 0.64);
+    width: 18rem;
+    height: 22rem;
     -webkit-box-shadow: -2px -3px 24px -12px rgba(0, 0, 0, 0.64);
+    box-shadow: -2px -3px 24px -12px rgba(0, 0, 0, 0.64);
 }
 
 .profile-picture {
