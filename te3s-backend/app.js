@@ -9,7 +9,7 @@ const port = process.env.PORT;
 app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
-app.use("/api/cards", router);
+app.use("/api/users", router);
 
 app.listen(port, () => {
   console.log(`Server running and listening on port ${port}`);
