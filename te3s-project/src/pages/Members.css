@@ -1,7 +1,7 @@
 .member-page-content {
     display: flex;
     flex-flow: row;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 
 .member-container {
@@ -11,7 +11,7 @@
     justify-content: flex-start;
     padding: 2rem;
     gap: 2rem;
-    width: 70vw;
+    width: 75%;
 }
 
 .member-info-container {
@@ -19,9 +19,9 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(27, 27, 27);
+    background-color: rgba(27, 11, 56, 0.425);
     padding: 3rem;
-    width: 25vw;
+    width: 28rem;
     height: 92.25%;
     margin: 2rem 2rem 2rem 2rem;
     -webkit-box-shadow: -2px -3px 24px -12px rgba(0, 0, 0, 0.64);
