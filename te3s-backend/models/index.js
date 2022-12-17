@@ -3,10 +3,10 @@ import { pool } from "../db/index.js";
 // async function to get by name
 async function getMembers() {
   const results = await pool.query(
-    `SELECT * FROM cards`
+    `SELECT * FROM members`
   );
   const rows = results.rows;
   return rows;
 }
 
-export { getByName };
+export { getMembers };
