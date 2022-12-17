@@ -3,8 +3,8 @@ const router = express.Router();
 
 import { getProfilePicture } from "../models/index.js";
 
-router.get("/", async (req, res) => {{
-    const result = await getProfilePicture();
+router.get("/:id", async (req, res) => {{
+    const result = await getProfilePicture(req.params.id);
     res.json({
       success: true,
       payload: result,

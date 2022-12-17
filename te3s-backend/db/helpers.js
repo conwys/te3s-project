@@ -9,7 +9,8 @@ async function createTable() {
         name TEXT,
         yt TEXT,
         st TEXT,
-        ds TEXT
+        ds TEXT,
+        steam64 TEXT
       );`
   );
 }
@@ -23,37 +24,42 @@ async function dropTable() {
 async function refillTable() {
   return await pool.query(
     `INSERT INTO
-    members (name, yt, st, ds)
+    members (name, yt, st, ds, steam64)
     VALUES
       (
         'uxi',
         'https://youtube.com/@xetro',
         'https://steamcommunity.com/id/uxi',
-        'xetro#6108'
+        'xetro#6108',
+        '76561197961918582'
       ),
       (
         'roman',
         'https://youtube.com/@FFVII',
         'https://steamcommunity.com/id/romanesque',
-        'romanesque#6715'
+        'romanesque#6715',
+        '76561198139149949'
       ),
       (
         'conwy',
         'https://youtube.com/@conwys',
         'https://steamcommunity.com/id/buo',
-        'bem#0001'
+        'bem#0001',
+        '76561199062092795'
       ),
       (
         'eve',
         'https://youtube.com/@dgjeans',
         'https://steamcommunity.com/id/kissheels',
-        'IzzyLover123#0733'
+        'IzzyLover123#0733',
+        '76561199402863087'
       ),
       (
         'akidra',
         'https://youtube.com/@akidra',
         'https://steamcommunity.com/id/akidra',
-        'akidra#8144'
+        'akidra#8144',
+        '76561198873629095'
       );`
   );
 }

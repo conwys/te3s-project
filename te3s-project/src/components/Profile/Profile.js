@@ -7,7 +7,7 @@ export default function Profile({ name, pfp, yt, st, ds }) {
 
     return (
         <div className='profile-container'>
-            <ProfilePicture pfp={"Hello"}/>
+            <ProfilePicture pfp={pfp}/>
             <Name name={name}/>
             <Socials yt={yt} st={st} ds={ds}/>
         </div>
