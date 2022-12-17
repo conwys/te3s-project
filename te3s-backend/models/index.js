@@ -9,4 +9,10 @@ async function getMembers() {
   return rows;
 }
 
-export { getMembers };
+async function getProfilePicture() {
+  const fetch = await fetch(" http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=08C9A90F110303FA18703DC07B9BE975&steamids=76561199062092795")
+  const fetchData = await fetch.json();
+  console.log(fetchData);
+}
+
+export { getMembers, getProfilePicture };

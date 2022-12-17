@@ -5,7 +5,6 @@ import {
   getMembers,
 } from "../models/index.js";
 
-// GET cards by name or email
 router.get("/", async (req, res) => {{
   const result = await getMembers();
   res.json({

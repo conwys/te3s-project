@@ -1,6 +1,7 @@
 import express from "express";
 import morgan from "morgan";
 import router from "./routes/index.js";
+import pfpRouter from "./routes/pfpRouter.js";
 import cors from "cors";
 const app = express();
 const port = process.env.PORT;
@@ -10,6 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
 app.use("/api/users", router);
+app.use("/api/userPfp", pfpRouter)
 
 app.listen(port, () => {
   console.log(`Server running and listening on port ${port}`);

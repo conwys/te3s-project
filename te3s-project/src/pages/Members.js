@@ -15,6 +15,9 @@ export default function Members() {
             let memberList = await fetch("http://localhost:3001/api/users");
             let memberListData = await memberList.json();
             setMembers(memberListData.payload)
+            let pfpFetch = await fetch(`http://localhost:3001/api/userPfp`)
+            let pfpData = await pfpFetch.json()
+            console.log(pfpData)
 
         }
  
